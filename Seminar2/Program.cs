@@ -18,7 +18,7 @@ Console.WriteLine("New version number is " + newNumber);
 */
 
 // Задача 2. Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.
-
+/*
 int Number (int numb)
 {
     int des = numb / 10;
@@ -39,6 +39,27 @@ Console.WriteLine($"Current random two-digit number is  {randNumber}");
 
 int result = Number(randNumber);
 Console.WriteLine($"Max number is {result}");
+*/
 
+// Задача 3. Напишите программу, которая будет принимать на вход два числа и определять, является ли второе число кратным первому.
+/*
+bool Multiple (int a, int b)
+{
+    if ( b % a == 0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
 
+Console.WriteLine("Enter two numbers ");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+bool result = Multiple(a,b);
+
+Console.WriteLine(result);
+*/
 
