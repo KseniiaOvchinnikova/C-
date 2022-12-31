@@ -63,3 +63,20 @@ bool result = Multiple(a,b);
 Console.WriteLine(result);
 */
 
+// Задача 4. Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+/*
+bool QuadroNumber (int a, int b)
+{
+    if (a== b*b || b == a*a)
+    return true;
+    else
+    return false;
+}
+
+Console.Write("Enter number 1 ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter number 2 ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(QuadroNumber(a,b));
+*/
