@@ -17,7 +17,7 @@ GetDiapazone(quadNum);
 */
 
 // Задача 2. Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка.
-
+/*
 int GetQuadrant(int x, int y)
 {
     int quad = -1;
@@ -34,8 +34,25 @@ int y = Convert.ToInt32(Console.ReadLine());
 
 if (GetQuadrant(x,y) == -1) Console.WriteLine("Некорректный ввод!");
 else Console.WriteLine("Номер четверти: " + GetQuadrant(x,y));
+*/
 
 // Задача 3. Напишите программу, которая принимает на вход число (N) и выдаёт квадраты чисел от 1 до N.
+/*
+void Quadrat (int n)
+{
+    int num = 1;
+    Console.Write("Квадраты чисел: ");
+    while (num < n + 1)
+    {
+        Console.Write(num*num + " ");
+        num = num+1;
+    }
+}
+
+Console.Write("Введите число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Quadrat(n);
+*/
 
 // Задача 4. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
 
