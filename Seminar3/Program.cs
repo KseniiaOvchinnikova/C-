@@ -55,5 +55,22 @@ Quadrat(n);
 */
 
 // Задача 4. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+/*
+double GetDistance(double x1, double y1,
+                    double x2, double y2)
+    {
+        double result = Math.Sqrt (Math.Pow (x2-x1, 2)+ Math.Pow (y2-y1, 2));
+        return result;
+    }
 
+    Console.WriteLine("Введите координаты первой точки: ");
+    double x1 = Convert.ToDouble(Console.ReadLine());
+    double y1 = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine("Введите координаты второй точки: ");
+    double x2 = Convert.ToDouble(Console.ReadLine());
+    double y2 = Convert.ToDouble(Console.ReadLine());
+
+    Console.Write("Расстояние между двумя точками равно " + GetDistance(x1,y1,x2,y2));
+    */
 
